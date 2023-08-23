@@ -1,0 +1,26 @@
+.mainbox {
+    padding: 20px 35px;
+
+    .firstbox {
+        display: flex;
+        justify-content: space-evenly;
+        img {
+            height: 450px;
+            width: 450px;
+            border-radius: 10px;
+        }
+    }
+}
+
+.mobilebox{
+    display: none;
+}
+
+@media only screen and (max-width: 420px) {
+    .mainbox{
+        display: none;
+    }
+    .mobilebox{
+        display: block;
+    }
+}

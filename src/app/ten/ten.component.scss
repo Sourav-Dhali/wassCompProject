@@ -1,0 +1,81 @@
+.mainbox{
+    padding: 10px 50px;
+    padding-bottom: 3px;
+    .insidebox{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+        .boxes{
+            height: 110px;
+            padding: 2px 0;
+            .logo{
+                img{
+                    display: block;
+                    margin: auto;
+                    height: 80px;
+                    width: 70px;
+                }
+            }
+            .text{
+                font-size: 14px;
+                font-weight: 600;
+                color: rgb(107, 106, 106);
+            }
+        }
+        .vr{
+            height: 50px;
+            width: 1px;
+            background-color: rgb(29, 6, 244);
+            margin: auto 0;
+        }
+    }
+}
+.bottombox{
+    height: 40px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+@media only screen and (max-width: 420px) {
+    .mainbox{
+        padding: 5px;
+        padding-bottom: 3px;
+        .insidebox{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: white;
+            border-radius: 10px;
+            .boxes{
+                height: 50px;
+                padding: 7px;
+                .logo{
+                    img{
+                        display: block;
+                        margin: auto;
+                        height: 20px;
+                        width: 20px;
+                    }
+                }
+                .text{
+                    font-size: 6px;
+                    font-weight: 600;
+                    color: rgb(107, 106, 106);
+                    text-align: center;
+                }
+            }
+            .vr{
+                height: 30px;
+                width: 1px;
+                background-color: rgb(29, 6, 244);
+                margin: auto 0;
+            }
+        }
+    }
+
+}
